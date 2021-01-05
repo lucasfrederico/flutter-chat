@@ -1,10 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
-  Firestore.instance.collection('mensagens').document('L4dYrpooFTN50GKIUkgV').collection('arquivos').document().setData({
-    'arqname': 'foto.png'
+  QuerySnapshot snapshot = await Firestore.instance.collection('mensagens').getDocuments();
+  snapshot.documents.forEach((d) {
+    print(d.data);
   });
 }
 
