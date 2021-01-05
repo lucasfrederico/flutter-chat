@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1070203884258",
+    "firebase_url": "https://chatflutter-7a76e-default-rtdb.firebaseio.com",
+    "project_id": "chatflutter-7a76e",
+    "storage_bucket": "chatflutter-7a76e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070203884258:android:08df8c81af53756e3a84bb",
+        "android_client_info": {
+          "package_name": "me.lucasfrederico.flutter_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070203884258-k5a1i84028tjq1rquihl79p5kmsqj267.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.lucasfrederico.flutter_chat",
+            "certificate_hash": "3f7bd1cfab882d178cd6b35a3e0dbfd786ce6338"
+          }
+        },
+        {
+          "client_id": "1070203884258-9u2cd3c3aerpbhlndbu4vc19e6voda24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNnhZT0N3Te9jEWgnmgKqqcPHa8-lrqYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070203884258-9u2cd3c3aerpbhlndbu4vc19e6voda24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
