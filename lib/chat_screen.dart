@@ -22,7 +22,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
       StorageTaskSnapshot taskSnapshot = await task.onComplete;
       String url = await taskSnapshot.ref.getDownloadURL();
-      data['image'] = url;
+      data['imgUrl'] = url;
     }
 
     if (text != null) data['text'] = text;
