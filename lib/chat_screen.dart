@@ -80,7 +80,7 @@ class _ChatScreenState extends State<ChatScreen> {
     if (imageFile != null) {
       StorageUploadTask task = FirebaseStorage.instance
           .ref()
-          .child(DateTime.now().microsecondsSinceEpoch.toString())
+          .child(user.uid + DateTime.now().microsecondsSinceEpoch.toString())
           .putFile(imageFile);
       setState(() {
         _isLoading = true;
